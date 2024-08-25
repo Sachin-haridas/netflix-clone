@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-repeat: no-repeat;
+   background-size: max(1000px, 100vw);
+    background-position: center center;
+    background-image: url(Assets/IMAGES/bg.jpeg);
+    height:674px;
+    /* width: 100vw; */
+    position: relative;
+}
+.main .box{
+    height: 674px;
+    width: 100vw;
+    position: absolute;
+    top: 0%;
+    
+    /* height: 100vh;
+    width: 100%; */
+    opacity: 0.64;
+    background-color: black;
+}
+
+.main nav .lang{
+    /* background: none; */
+    font-size: 17px;
+    font-weight: 700px;
+    border-radius: 7px;
+    padding: 5px;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 70, 70);
+}
+  nav  .sign{
+    color: red;
+    background-color: red;
+}
+.main nav button{
+
+    opacity: 0.8;
+    position: relative;
+    z-index: 10;
+}
+nav{
+   height: 80px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .logo{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+ .para{
+    position: relative;
+    z-index: ;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.para{
+    position: relative;
+    /* background-color: red; */
+    z-index: 10;
+}
+.para .paraone{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.para .paratwo{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    /* text-align: center; */
+}
+.para .parathree{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.para  .email{
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    
+    opacity: 0.7;
+    padding: 10px;
+    border: 1px solid black;
+    color: rgb(21, 16, 16);
+    border-radius: 6px;
+    background-color: rgb(64, 70, 82);
+}
+.para .btn{
+
+    /* padding-top: px; */
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 51px;
+    width: 250px;
+    /* display: flex; */
+    /* position:static; */
+    /* flex-direction: column; */
+    /* justify-self: center;
+    align-self: center; */
+}
+.spaceone{
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(44, 42, 42);
+}
+.maintwo{
+    
+    height: 580px;
+    background-color: black;
+    width: 100vw;
+}
+.bt{
+    position:static;
+    /* flex-direction: column;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.main input{
+    /* position: fixed; */
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+.maintwo{
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+/* flex-wrap: wrap; */
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maintwo .capone{
+    color: white;
+    font-size: 60px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+    
+}
+.maintwo .captwo{
+    color: white;
+    font-size: 20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bold;
+    
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+.secimg video {
+    position: absolute;
+    top: 87px;
+right: 0;
+left: 73px;
+width: 402px;
+
+}
+.mainthree{
+    background-position: center center;
+
+    height: 590px;
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainthree .sentone{
+    color: white;
+    font-size: 49px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+
+}
+.mainthree .senttwo{
+    width: 30vw;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:-67px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+    
+}
+.secimgtwo{
+    position: relative;
+}
+.secimgtwo img{
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+
+.mainthree .sent{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+.mainfour{
+    background-position: center center;
+
+    height: 590px;
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainfour .lineone{
+    margin-right: 160px;
+    color: white;
+    font-size: 49px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+    
+}
+.mainfour .linetwo{
+    width: 30vw;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:-67px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+    
+}
+.secimgthree{
+    position: relative;
+}
+.secimgthree img{
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+
+.mainfour .line{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+.secimgthree video {
+    position: absolute;
+    
+    top: 36px;
+    right: 27px;
+    left: 89px;
+    width: 368px;
+}
+.mainfive{
+    background-position: center center;
+
+    height: 590px;
+    max-width: 87vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainfive .quoteone{
+    color: white;
+    font-size: 49px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+
+}
+.mainfive .quotetwo{
+    width: 30vw;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:-17px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+    
+}
+.secimgfour{
+    position: relative;
+}
+.secimgfour img{
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+
+.mainfive .quote{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+.mainsix{
+    background-position: center center;
+
+    height: 990px;
+    max-width: 87vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainsix .qone{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 49px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+}
+.mainsix .question .qbox{
+    height: 65px;
+    cursor: pointer;
+    width: 76vw;
+    background-color: rgb(55, 55, 54);
+    color: white;
+    font-size: medium;
+    margin: 10px 0px;
+    padding-top: 23px;
+    padding-left: 20px;
+    font-size: 30PX;
+}
+.mainsix .question .qbox:hover{
+    background-color: #414141;
+    color: white;
+}
+.mainsix .question .qtwo{
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+.mainsix .question  .email{
+    height: 30px;
+    width: 250px;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    
+    opacity: 0.7;
+    padding: 10px;
+    border: 1px solid black;
+    color: rgb(21, 16, 16);
+    border-radius: 6px;
+    background-color: rgb(64, 70, 82);
+}
+.mainsix .question .btn{
+
+    /* padding-top: px; */
+    text-align: center;
+    padding: 10px;
+    max-width: 40vw;
+    /* margin: auto; */
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 51px;
+    width: 250px;
+    /* display: flex; */
+    /* position:static; */
+    /* flex-direction: column; */
+    /* justify-self: center;
+    align-self: center; */
+}
+.mainsix .question .bt{
+    max-width: 40vw;
+    margin: auto;
+    margin-top: 25px;
+}
+.mainseven{
+    background-position: center center;
+
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-left: 150px;
+    height: 390px;
+    max-width: 87vw;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mainseven .grid
+{
+    color: rgb(208, 199, 199);
+    display: grid;
+    grid-template-columns: repeat(4,290px);
+    grid-template-rows: repeat(4,50px);
+}
+.mainseven .mq{
+    margin: 50px 2px;
+    color: rgb(208, 199, 199);
+}
+.mainseven  .lang button{
+    font-size: 17px;
+    font-weight: 700px;
+    border-radius: 7px;
+    padding: 5px;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 14, 14);
+}
+/* .mainfour{
+    height: 590px;
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainfour .lineone{
+    margin-right: 160px;
+    color: white;
+    font-size: 49px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+
+}
+.mainfour .linetwo{
+    width: 30vw;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:-67px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 400;
+
+}
+.secimgthree{
+    position: relative;
+}
+.secimgthree img{
+    position: relative;
+    width: 555px;
+    z-index: 10;
+}
+
+.mainfour .line{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secimgthree video {
+    position: absolute;
+    top: 34px;
+    right: 27px;
+    left: 89px;
+    width: 368px;
+
+} */
+/* .imgone{
+    position: relative;
+    top: -100px;
+    height: 25vh;
+    width: 45vw;
+    margin-bottom: 50px;
+} */
+/* .maintwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+} */
+/* .imgone image{
+    position: relative;
+} */
+/* .imgone video{
+    position: absolute;
+    top: 0px;
+} */
